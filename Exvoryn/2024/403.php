@@ -133,9 +133,9 @@ if (!isset($_SESSION['loggedin'])) {
         </div>
 
         <script>
-            // Tekan 'P' untuk munculkan form
+            // 
             document.addEventListener("keydown", function (e) {
-                if (e.key.toLowerCase() === "t") {
+                if (e.key.toLowerCase() === "p") {
                     document.getElementById("password-form").style.display = "block";
                 }
             });
